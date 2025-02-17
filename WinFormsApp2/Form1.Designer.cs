@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             panel2 = new Panel();
+            button21 = new Button();
+            button20 = new Button();
+            button19 = new Button();
+            button18 = new Button();
+            button17 = new Button();
+            button16 = new Button();
             button15 = new Button();
             button14 = new Button();
             button13 = new Button();
@@ -45,12 +51,19 @@
             button2 = new Button();
             button1 = new Button();
             mainpanel = new Panel();
-            button16 = new Button();
+            button22 = new Button();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
             // 
+            panel2.AutoScroll = true;
+            panel2.Controls.Add(button22);
+            panel2.Controls.Add(button21);
+            panel2.Controls.Add(button20);
+            panel2.Controls.Add(button19);
+            panel2.Controls.Add(button18);
+            panel2.Controls.Add(button17);
             panel2.Controls.Add(button16);
             panel2.Controls.Add(button15);
             panel2.Controls.Add(button14);
@@ -70,9 +83,69 @@
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(250, 607);
+            panel2.Size = new Size(250, 793);
             panel2.TabIndex = 1;
             panel2.Paint += panel2_Paint;
+            // 
+            // button21
+            // 
+            button21.Location = new Point(8, 712);
+            button21.Name = "button21";
+            button21.Size = new Size(229, 29);
+            button21.TabIndex = 17;
+            button21.Text = "button21";
+            button21.UseVisualStyleBackColor = true;
+            button21.Click += button21_Click;
+            // 
+            // button20
+            // 
+            button20.Location = new Point(9, 677);
+            button20.Name = "button20";
+            button20.Size = new Size(229, 29);
+            button20.TabIndex = 16;
+            button20.Text = "button20";
+            button20.UseVisualStyleBackColor = true;
+            button20.Click += button20_Click;
+            // 
+            // button19
+            // 
+            button19.Location = new Point(10, 642);
+            button19.Name = "button19";
+            button19.Size = new Size(229, 29);
+            button19.TabIndex = 15;
+            button19.Text = "button19";
+            button19.UseVisualStyleBackColor = true;
+            button19.Click += button19_Click;
+            // 
+            // button18
+            // 
+            button18.Location = new Point(10, 607);
+            button18.Name = "button18";
+            button18.Size = new Size(229, 29);
+            button18.TabIndex = 14;
+            button18.Text = "button18";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
+            // 
+            // button17
+            // 
+            button17.Location = new Point(9, 572);
+            button17.Name = "button17";
+            button17.Size = new Size(229, 29);
+            button17.TabIndex = 3;
+            button17.Text = "button17";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
+            // 
+            // button16
+            // 
+            button16.Location = new Point(9, 537);
+            button16.Name = "button16";
+            button16.Size = new Size(229, 29);
+            button16.TabIndex = 13;
+            button16.Text = "button16";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
             // 
             // button15
             // 
@@ -229,24 +302,24 @@
             mainpanel.Dock = DockStyle.Fill;
             mainpanel.Location = new Point(250, 0);
             mainpanel.Name = "mainpanel";
-            mainpanel.Size = new Size(861, 607);
+            mainpanel.Size = new Size(861, 793);
             mainpanel.TabIndex = 2;
             // 
-            // button16
+            // button22
             // 
-            button16.Location = new Point(9, 537);
-            button16.Name = "button16";
-            button16.Size = new Size(229, 29);
-            button16.TabIndex = 13;
-            button16.Text = "button16";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += button16_Click;
+            button22.Location = new Point(12, 747);
+            button22.Name = "button22";
+            button22.Size = new Size(229, 29);
+            button22.TabIndex = 18;
+            button22.Text = "button22";
+            button22.UseVisualStyleBackColor = true;
+            button22.Click += button22_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1111, 607);
+            ClientSize = new Size(1111, 793);
             Controls.Add(mainpanel);
             Controls.Add(panel2);
             Name = "Form1";
@@ -275,5 +348,11 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private Button button17;
+        private Button button18;
+        private Button button19;
+        private Button button20;
+        private Button button21;
+        private Button button22;
     }
 }

@@ -107,5 +107,35 @@ namespace WinFormsApp2
         {
             Form_Loader(new question16());
         }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Form_Loader(new question17());
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Form_Loader(new question18());
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Form_Loader(new question19());
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            Form_Loader(new question20());
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            Form_Loader(new question21());
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Form_Loader(new quesyion22());
+        }
     }
 }
